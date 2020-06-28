@@ -1,0 +1,17 @@
+@use 'partial_font';
+@use 'partial_color';
+
+html {
+    font-family: partial_font.$default-font;
+    font-size: partial_font.$regular-size-content-font;
+}
+
+.title {
+    // font-family: font.$title-font;
+    @extend %title-font;
+}
+
+.nav_bar {
+    // font-family: font.$title-font;
+    @extend %nav-bar-font ;
+}

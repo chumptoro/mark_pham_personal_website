@@ -1,0 +1,38 @@
+body {
+  display: grid;
+  grid-row-gap: 60px;
+  height: 100%;
+  width: 100%;
+}
+
+.title, .nav_bar {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.content {
+  grid-row-start: 3;
+  display: grid;
+}
+
+p {
+  grid-column-start: 2;
+}
+
+@media (max-width: 300px) {
+  .content {
+    grid-template-columns: 30px 1fr 30px;
+  }
+}
+@media (min-width: 301px) {
+  .content {
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+  }
+}
+@media (min-width: 1136px) {
+  .content {
+    grid-template-columns: 1fr 800px 1fr;
+  }
+}
+
+/*# sourceMappingURL=responsive_layout.css.map */

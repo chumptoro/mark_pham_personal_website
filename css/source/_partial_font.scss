@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'apercu';
+    src: url('https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff2') format('woff2'),
+         url('https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'apercu mono';
+    src: url('../font_files/apercu_mono/apercu-mono.woff2') format('woff2'),
+         url('../font_files/apercu_mono/apercu-mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+$default-font: 'apercu';
+$content-font: 'apercu';
+// $title-font: 'europa';
+
+%title-font {
+	font-family: europa;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	letter-spacing: .04em;
+	color: #b3b3b3;
+}
+
+%nav-bar-font {
+    font-family: europa;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .04em;
+    color: #b3b3b3;
+}
+
+
+$regular-size-content-font: 19px;
+$font-color: black;
+
+

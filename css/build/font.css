@@ -10,8 +10,27 @@
   font-weight: normal;
   font-style: normal;
 }
-html {
-  background: white;
+.title {
+  font-family: europa;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #b3b3b3;
 }
 
-/*# sourceMappingURL=home.css.map */
+.nav_bar {
+  font-family: europa;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #b3b3b3;
+}
+
+html {
+  font-family: "apercu";
+  font-size: 19px;
+}
+
+/*# sourceMappingURL=font.css.map */

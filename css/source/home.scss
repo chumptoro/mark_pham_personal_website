@@ -1,8 +1,7 @@
-@use 'font';
-@use 'color';
-
+@use 'partial_font';
+@use 'partial_color';
 
 html {
-	font-family: font.$default-font;
-	font-size: font.$regular-size-content-font;
+	background: partial_color.$default-background-color;
 }
+
