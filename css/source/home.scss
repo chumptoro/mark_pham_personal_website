@@ -1,0 +1,8 @@
+@use 'font';
+@use 'color';
+
+
+html {
+	font-family: font.$default-font;
+	font-size: font.$regular-size-content-font;
+}
