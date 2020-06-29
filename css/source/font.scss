@@ -11,7 +11,7 @@ html {
     @extend %title-font;
 }
 
-.nav_bar {
+.nav_link {
     // font-family: font.$title-font;
-    @extend %nav-bar-font ;
+    @extend %nav-link-font ;
 }

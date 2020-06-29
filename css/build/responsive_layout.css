@@ -1,17 +1,24 @@
 body {
   display: grid;
-  grid-row-gap: 60px;
-  height: 100%;
-  width: 100%;
 }
 
-.title, .nav_bar {
-  grid-row-start: 2;
-  grid-column-start: 2;
+.nav_bar {
+  grid-row-start: 1;
+  display: block;
+  position: relative;
+}
+.nav_bar .title, .nav_bar .nav_links {
+  position: absolute;
+}
+.nav_bar .title {
+  left: 10%;
+}
+.nav_bar .nav_links {
+  right: 10%;
 }
 
 .content {
-  grid-row-start: 3;
+  grid-row-start: 2;
   display: grid;
 }
 
